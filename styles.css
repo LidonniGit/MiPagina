@@ -1,0 +1,82 @@
+/* ESTA ES MI HOJA DE ESTILO */
+
+body {
+    /*propiedades*/
+    background-color: rgb(226, 206, 245);
+    font-family: Arial, 'Times New Roman', Times, serif;
+
+}
+
+.lineaimport {
+    background-color: rgb(223, 247, 10);
+}
+
+* {
+    /* ESTA INDICA EL ESTANDAR A TODA LA PAGINA */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+p {
+    background-color: chocolate;
+}
+
+h1 {
+    font-size: 5vw;
+    color: rgba(56, 10, 12, 0.5);
+}
+
+#seccion1 {
+
+    background-color: blueviolet;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid blue;
+}
+
+#miimagen {
+
+    width: 50%;
+    text-align: center;
+
+}
+
+#boxpadin {
+    /*si lo declaro arriba unifico todo*/
+    margin: 45px 80px 60px 70px;
+
+
+    /*top*/
+   /* margin-top: 2rem;*/
+    padding-top: 15px;
+    border-top: 2px solid #eaf824;
+
+    /*botom*/
+   /* margin-bottom: 2rem;*/
+    padding-bottom: 15px;
+    border-bottom: 2px double rgb(67, 31, 226);
+
+    /*left*/
+   /* margin-left: 5rem;*/
+    padding-left: 15px;
+    border-left: 5px double rgb(67, 31, 226);
+}
+
+#micola a {
+    display:list-item;
+    margin:  15px;
+    color: blue;
+}
+
+#posicion {
+
+    width: 20vw;
+    height: 30vw;
+    border: 3px solid #000;
+}
+
+a{
+    position: relative;
+    left: 3vw;
+}

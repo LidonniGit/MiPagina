@@ -1,0 +1,22 @@
+
+.item {
+
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    font-size: 2rem;
+    color: white;
+    margin: 2px;
+
+}
+
+.container {
+
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
